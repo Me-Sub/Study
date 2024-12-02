@@ -3,46 +3,48 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Challenge2</title>
+    <title>challange</title>
     <style>
-        p{
-            font-family: arial;
-            font-size: 40px;    
+        input[type="email"]{
+            display: block;
         }
         input{
-            display: block;
-            margin-bottom: 8px;
-            padding: 15px 20px;
-            width: 400px;
-            font-size: 15px;
-            background-color: rgb(240, 240, 240);
-            border: none;
+            border-width: 1px;
+  border-style: solid;
+  border-color: rgb(200, 200, 200);
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-left: 16px;
+  padding-right: 16px;
+  font-size: 16px;
+  border-radius: 8px;
+  margin-bottom: 12px;
         }
-        .request-button{
-            margin-top: 40px;
-            margin-right: 20px;
-            padding: 10px 20px;
-            font-size: 16px;
-            background-color: black;
+        .first-name,
+        .last-name{
+            width: 148px;
+        }
+        .email{
+            width: 333px;
+        }
+        .sign-up{
+            width: 333px;
+            padding-top: 14px;
+            padding-bottom: 14px;
+            background-color: rgb(47, 127, 231);
+            border-radius: 8px;
+            border: none;
             color: white;
-            border: none;
-
+            font-size: 20px;
+            font-family: arial;
+            width: 365px;
         }
-        .schedule-button{
-            margin-top: 40px;
-            padding: 10px 20px;
-            font-size: 16px;
-            background-color: rgb(240, 240, 240);
-            color:black;
-            border: none;
-        }
-    </style>
+        </style>
 </head>
 <body>
-    <p>Request a ride now</p>
-    <input type="text" placeholder="Enter pickup location">
-    <input type="text" placeholder="Enter destination">
-    <button class="request-button">Request now</button>
-    <button class="schedule-button">Schedule for later</button>
+    <input class="first-name" type="text" placeholder="First name">
+    <input class="last-name" type="text" placeholder="Last name">
+    <input class="email" type="email" placeholder="email">
+    <button class="sign-up">Sign up</button>
 </body>
 </html>
